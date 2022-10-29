@@ -1,0 +1,56 @@
+
+.front{
+    text-align: center;
+    margin-top: 10em;}
+
+footer {
+    height: 150px;
+}
+
+.social-media {
+    text-align: center;
+
+}
+
+.social-media>li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+    margin-top: 20%;
+}
+.social i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+    margin-top: 0%
+}
+footer {
+    height: 100px
+}
+
+.social {
+    text-align: center;
+
+}
+
+.social>li {
+    display: inline;
+}
+.start{
+    color: white;
+    background-color: #ff0000;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+
