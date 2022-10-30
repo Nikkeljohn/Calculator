@@ -1,20 +1,26 @@
-
+/* giving front page more attractive */
 .front{
     text-align: center;
     margin-top: 10em;}
+
+ /* footer hieght*/
 
 footer {
     height: 150px;
 }
 
+/* social media icons are centered*/
+
 .social-media {
     text-align: center;
 
 }
+/*they are put together in a line*/
 
 .social-media>li {
     display: inline;
 }
+/*giving them padding and size*/
 
 .social-media i {
     font-size: 160%;
@@ -23,6 +29,7 @@ footer {
     color: #3a3a3a;
     margin-top: 20%;
 }
+
 .social i {
     font-size: 160%;
     margin: 1%;
@@ -30,6 +37,7 @@ footer {
     color: #3a3a3a;
     margin-top: 0%
 }
+
 footer {
     height: 100px
 }
@@ -42,6 +50,7 @@ footer {
 .social>li {
     display: inline;
 }
+
 .start{
     color: white;
     background-color: #ff0000;
@@ -84,4 +93,16 @@ footer {
     text-align: center;
     font-size: 25px;
     cursor: pointer;
+}
+#c {
+    color: white;
+    background-color: #ff0000;
+}
+#equal {
+    color: white;
+    background-color: #0099ff;
+}
+.button:hover {
+    background-color: #3a3a3a;
+    color: white;
 }
