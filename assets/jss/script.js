@@ -10,14 +10,26 @@ buttons.map(button =>{
     button.addEventListener('click',(h) =>{
         // we use switch statement and can inseert the same value typed 
         //so by deafult will add innertext of button to inner text of display
-        switch(h.target.innertext){
-            
+        switch(h.target.innerText){
+           
+           //and in this case if user clicks the "c" button it clears the display by setting the innertext an empty string
+
+            case 'C':         
+                display.innerText = '';
+                //we break the statement by executing break and doesn't show c
+                break;
+
+            default:
+                display.innerText += h.target.innerText;
         }
-       /* we use to identify which button is clicked
+        
+        
+       // we use to identify which button is clicked
+
         console.log('clicked')
         console.log(h);
         console.log(h.target);
-        console.log(h.target.innerText);*/
+        console.log(h.target.innerText);
 
 
     });
