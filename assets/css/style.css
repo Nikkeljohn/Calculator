@@ -68,4 +68,16 @@ footer {
     display: grid;
     border-bottom: 1px solid rgb(152, 150, 150);
     border-left: 1px solid rgb(152, 150, 150);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.buttons > div{
+    border-top: 1px solid rgb(152, 150, 150);
+    border-right: 1px solid rgb(152, 150, 150);
+}
+.buttons {
+    border: 0.6px solid rgb(152, 150, 150);
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
 }
