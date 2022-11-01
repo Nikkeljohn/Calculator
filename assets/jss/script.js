@@ -19,12 +19,13 @@ buttons.map(button =>{
                 //we break the statement by executing break and doesn't show c
                 break;
 
-            default:
-                display.innerText += h.target.innerText;
+                case '=':
+
+
         }
         
         
-       // we use to identify which button is clicked
+       // tried  to identify which button is clicked is working 
 
         console.log('clicked')
         console.log(h);
