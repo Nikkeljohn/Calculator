@@ -1,4 +1,11 @@
 /* giving front page more attractive */
+header {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    color: #EEEEEE;
+    background-color: #356373;
+}
 .front{
     text-align: center;
     margin-top: 10em;}
@@ -50,7 +57,7 @@ footer {
 .social>li {
     display: inline;
 }
-
+/*start button in 1st page*/
 .start{
     color: white;
     background-color: #ff0000;
@@ -73,6 +80,8 @@ footer {
     line-height: 70px;
     padding: 16px 8px;
     font-size: 25px;
+    background-color: #3a3a3a;
+    color: white;
 }
 
 .buttons {
@@ -80,6 +89,7 @@ footer {
     border-bottom: 1px solid #999;
     border-left: 1px solid#999;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    
 }
 
 .buttons > div {
@@ -105,4 +115,23 @@ footer {
 .button:hover {
     background-color: #3a3a3a;
     color: white;
+}
+/*multipilcation buttons*/
+#bts {
+    background-color: rgb(92, 211, 92);
+}
+/*modal style*/
+#btn{
+  text-align: center;
+  
+}
+#myBtn{
+    color: white;
+    background-color: #ff0000;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
 }

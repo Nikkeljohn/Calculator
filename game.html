@@ -10,35 +10,51 @@
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="shortcut icon" href="favicon_io (2)/favicon.ico">
+  <link rel="shortcut icon" href="favicon_io2/favicon.ico">
   <title>Calculator</title>
 </head>
 
 <body>
+  <header><h1><i class="fa-brands fa-square-js"></i> Javascript Calculator <i class="fa-solid fa-calculator"></i></h1>
+  </header>
   <main>
+    <!-- Trigger/Open The Modal -->
+    <div id="btn">
+<button id="myBtn">Open Modal</button>
+    </div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
     <section>
       <div class="container">
         <div id="display"></div>
         <div class="buttons">
           <div id="c" class="button">C</div>
-          <div class="button">/</div>
-          <div class="button">*</div>
-          <div class="button">&larr;</div>
+          <div id="bts" class="button">/</div>
+          <div id="bts" class="button">*</div>
+          <div id="bts" class="button">&larr;</div>
           <div class="button">7</div>
           <div class="button">8</div>
           <div class="button">9</div>
-          <div class="button">-</div>
+          <div id="bts" class="button">-</div>
           <div class="button">4</div>
           <div class="button">5</div>
           <div class="button">6</div>
-          <div class="button">+</div>
+          <div id="bts" class="button">+</div>
           <div class="button">1</div>
           <div class="button">2</div>
           <div class="button">3</div>
           <div class="button">.</div>
-          <div class="button">(</div>
+          <div id="bts" class="button">(</div>
           <div class="button">0</div>
-          <div class="button">)</div>
+          <div id="bts" class="button">)</div>
           <div id="equal" class="button">=</div>
         </div>
       </div>
