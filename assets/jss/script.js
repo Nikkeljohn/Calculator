@@ -32,8 +32,14 @@ buttons.map(button => {
 
                 //most immportant function "="
                 case "=":
+                    // used to handle in valid expression
+                    try{
                     //  used eval function so it can take string and excute as js
-                    display.innerText = eval(display.innerText);
+                    display.innerText = eval(display.innerText);}
+                    //if invalid expression is done then it will excute whats in catch statement
+                    catch {
+                        display.innerText ="ERROR!"
+                    }
                     //used break function to aviod display =
                     break;
 
