@@ -30,32 +30,24 @@ buttons.map(button => {
                 // break is used to aviod arrow button
                 break;
 
-                //most immportant function "="
-                case "=":
-                    // used to handle in valid expression
-                    try{
+            //most immportant function "="
+            case "=":
+                // used to handle in valid expression
+                try {
                     //  used eval function so it can take string and excute as js
-                    display.innerText = eval(display.innerText);}
-                    //if invalid expression is done then it will excute whats in catch statement
-                    catch {
-                        display.innerText ="ERROR!"
-                    }
-                    //used break function to aviod display =
-                    break;
+                    display.innerText = eval(display.innerText);
+                }
+                //if invalid expression is done then it will excute whats in catch statement
+                catch {
+                    display.innerText = "ERROR!"
+                }
+                //used break function to aviod display =
+                break;
 
             //will display content when clicked
             default:
                 display.innerText += h.target.innerText;
         }
-
-
-        // tried  to identify which button is clicked is working 
-
-        console.log('clicked')
-        console.log(h);
-        console.log(h.target);
-        console.log(h.target.innerText);
-
 
     });
 });
