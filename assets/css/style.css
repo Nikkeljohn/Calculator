@@ -131,7 +131,33 @@ footer {
     padding: 10px;
     border-radius: 15px;
     border: none;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 1em;
     cursor: pointer;
 }
+
+/* Modal Content */
+.modal-content {
+    background-color: #d1caca;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #f70707;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
