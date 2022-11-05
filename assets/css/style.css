@@ -118,9 +118,10 @@ footer {
     color: white;
     background-color: #0099ff;
 }
-.button:hover {
-    background-color: #3a3a3a;
+.button:hover{
+    background-color: #323330;
     color: white;
+    transition: 0.5s ease-in-out;
 }
 /*multipilcation buttons*/
 #bts {
@@ -152,6 +153,7 @@ footer {
     width: 30%;
     height: 30%;
     text-align: center;
+   
   }
   
   /* The Close Button */
@@ -187,13 +189,13 @@ footer {
   
 
 .modal-content{
-    font-size: 15px;
+    font-size: px;
         width: 250px;
 }
   }
 
   /* Max width 310px wide and below */
-@media screen and (max-width: 310px) {
+@media screen and (mn-width: 210px) {
     /* Heading */
      h1 {
          font-size: 0.8rem;
@@ -202,46 +204,13 @@ footer {
         font-size: 10px;
             width: 200px;
     }
-    .container{
-        width: 200px;
-        height: 300px;
+    p{
+        text-align: center;
+        font-size: 10px;
     }
-
-    #display{
-        width: 170px;
-        height: 60px;
-    }
-   #butn{
-    width: 200px;
-    height: 300px;
-   }
-  
- 
-    #myBtn{
-        width: 83px;
-        height: 50px;
-        font-size: 0.9rem;
-    }
-
+  .button > div{
+    width: 60px;
+    height: 60px;
+    font-size: 5px;
+  }
 }
-
-/* Max width 650px wide and below */
-@media screen and (max-width: 590px) {
-   #display #butn{
-    width: 300px;
-    height: 450px;
-
-    }
-    .container{
-        width: 300px;
-        height: 450px;
-
-    }
-    .button{
-        width: 60px;
-        height: 60px;
-        font-size: 1.9rem;
-    }
-}
-
-    
