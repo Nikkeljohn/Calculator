@@ -39,7 +39,7 @@ buttons.map(button => {
                 }
                 //if invalid expression is done then it will excute whats in catch statement
                 catch {
-                    display.innerText = "ERROR!"
+                    display.innerText = "ERROR!";
                 }
                 //used break function to aviod display =
                 break;

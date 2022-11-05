@@ -191,6 +191,7 @@ footer {
         width: 250px;
 }
   }
+
   /* Max width 310px wide and below */
 @media screen and (max-width: 310px) {
     /* Heading */
@@ -201,5 +202,46 @@ footer {
         font-size: 10px;
             width: 200px;
     }
-    
+    .container{
+        width: 200px;
+        height: 300px;
+    }
+
+    #display{
+        width: 170px;
+        height: 60px;
+    }
+   #butn{
+    width: 200px;
+    height: 300px;
+   }
+  
+ 
+    #myBtn{
+        width: 83px;
+        height: 50px;
+        font-size: 0.9rem;
+    }
+
 }
+
+/* Max width 650px wide and below */
+@media screen and (max-width: 590px) {
+   #display #butn{
+    width: 300px;
+    height: 450px;
+
+    }
+    .container{
+        width: 300px;
+        height: 450px;
+
+    }
+    .button{
+        width: 60px;
+        height: 60px;
+        font-size: 1.9rem;
+    }
+}
+
+    
