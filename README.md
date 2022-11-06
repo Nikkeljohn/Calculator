@@ -93,6 +93,50 @@ Favicon.io
 - favicon files were created at https://favicon.io/favicon-converter/
 Balsamiq
 
+Testing
+Responsiveness
+
+All pages were tested to ensure responsiveness on screen sizes from 360px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox, and Opera browsers.
+
+Steps to test:
+
+Open the browser and navigate to the lifespan of the developer tools (right click and inspect)Set to responsive and decrease width to 320pxSet the zoom to 50%Click and drag the responsive window to maximum width expected: Website is responsive on all screen sizes and no images are pixelated or stretched. No elements overlap.
+
+Actual: The website was also opened on the following devices and no responsive issues were seen:
+
+* Samsung galaxy s22
+
+* oneplus
+
+* i phone
+
+## Accessibility
+
+Wave Accessibility tool was used throughout the development and for the final testing of the deployed website to check for any aid accessibility testing.
+
+Testing was focused to ensure the following criteria were met:
+
+Contrast GuidelinesHeading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions, not textual content had alternative text or titles so descriptions are read out to screen renders
+
+HTML page lang attribute has been Setaria properties have been implemented correctlyWCAG 2.1 Coding best practices being followedManual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
+
+Issue was found but resolved
+
+HTML code validator showed no errors in every page
+
+![html!](assets/images/htmlchecker.png)
+
+CSS code validator also came error free
 
 
+![css!](assets/images/cssvalidator.png)
+
+JavaScript code validator also come error free
+
+![js!](assets/images/jschecker.png)
+
+## Light house testing
+
+
+![lighthouse!](assets/images/lighthouse.png)
 
