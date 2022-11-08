@@ -191,14 +191,20 @@ footer {
 .modal-content{
     font-size: px;
         width: 250px;
+
 }
+.button{
+    margin: 0.5em;
+    height: 200px;
+    width: 100px;
+  }
   }
 
   /* Max width 420px wide and below */
 @media screen and (max-width: 420px) {
     /* Heading */
      h1 {
-         font-size: 0.8rem;
+         font-size: 1.8rem;
     }
     .modal-content{
         font-size: 0.5rem;
@@ -207,6 +213,8 @@ footer {
   
   .button > div{
     margin: 0.5em;
+    height: 200px;
+    width: 100px;
   }
 }
 @media screen and(max-width: 650px) {
