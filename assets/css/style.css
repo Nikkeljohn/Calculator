@@ -193,11 +193,7 @@ footer {
         width: 250px;
 
 }
-.button{
-    margin: 0.5em;
-    height: 200px;
-    width: 100px;
-  }
+
   }
 
   /* Max width 420px wide and below */
@@ -211,11 +207,7 @@ footer {
         width: 100px;
     }
   
-  .button > div{
-    margin: 0.5em;
-    height: 200px;
-    width: 100px;
-  }
+
 }
 @media screen and(max-width: 650px) {
     

@@ -41,6 +41,9 @@ our main item , the calculator with fully functioning keys and multipilication, 
 
 ![calculator!](assets/images/calculator.png)
 
+
+
+
 ## Result Window
 The  Result window is where your calculated results shows
 
@@ -54,6 +57,13 @@ Add more operators with functionality.
 Add more buttons and functions
 Add more Javascript-based tools across multiple pages.
 Add more styles
+
+# Design
+
+### Home page
+
+!
+
 
 # Technologies
 
