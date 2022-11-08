@@ -60,9 +60,28 @@ Add more styles
 
 # Design
 
+## Wireframes
+
 ### Home page
 
-!
+![homepage!](assets/images/homepage.png)
+
+after clicking the start button it will take us to the calculating page 
+
+### main page
+
+![mainpage!](assets/images/calculatorpage.png)
+
+## Tablet page and Web Page 
+
+![browser!](assets/images/browser.png)
+
+## Mobile 
+
+![mobile!](assets/images/mobile.png)
+
+
+
 
 
 # Technologies
@@ -101,7 +120,11 @@ Tinyjpg
 Favicon.io
 
 - favicon files were created at https://favicon.io/favicon-converter/
+
 Balsamiq
+
+- wireframes were created using Balsamiq from https://balsamiq.com/wireframes/desktop/#
+
 
 Testing
 Responsiveness
