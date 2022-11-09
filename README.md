@@ -125,8 +125,22 @@ Balsamiq
 - wireframes were created using Balsamiq from https://balsamiq.com/wireframes/desktop/#
 
 
-Testing
-Responsiveness
+# Testing
+
+### Clculations
+ You can calculate any sum for example
+ 44+6 , then hit = you will find the anwser 
+
+ ### Back button
+ You can use back button by typing any number and hit <-
+ you can see the last digit will be deleted
+
+### Clear button
+
+You can type or calculate to clear the display just hit "C" button it will clear everything from the display
+
+
+### Responsiveness
 
 All pages were tested to ensure responsiveness on screen sizes from 360px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox, and Opera browsers.
 
@@ -171,6 +185,16 @@ JavaScript code validator also come error free
 
 ![lighthouse!](assets/images/lighthouse.png)
 
+## JavaScript
+
+* error was returned when passing through the JShint validator
+A warning appeared for one function as eval can be harmful.
+
+![jshint!](assets/images/jshint.png)
+
+## Unfixed Bugs
+
+* A warning appeared for one function as eval can be harmful.
 
 ## Deployment
 
