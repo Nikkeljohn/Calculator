@@ -127,6 +127,19 @@ Balsamiq
 
 # Testing
 
+**Navigation Links**
+
+Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+
+
+
+|Navigation link   | page to load       |
+| ---------------- | ------------------ |
+| Home             | index.html         |
+| start button     |  calculator.html   |
+---------------------------------------
+
+
 ### Clculations
  You can calculate any sum for example
  44+6 , then hit = you will find the anwser 
