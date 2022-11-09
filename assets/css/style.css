@@ -63,10 +63,30 @@ footer {
 .social>li {
     display: inline;
 }
+#menu {
+    font-size: 150%;
+    letter-spacing: 2px;
+}
+#menu li {
+    text-align: center;
+    list-style-type: none;
+    margin-right: 30px;
+
+}
+#menu a:hover {
+    background-color: rgb(72, 146, 211);
+
+}
+
+#menu a {
+    text-decoration:
+        none;
+    color: rgb(4, 49, 66)
+}
 /*start button in 1st page*/
 .start{
     color: white;
-    background-color: #4b8fe2;
+    background-color: #002553;
     padding: 10px;
     border-radius: 15px;
     border: none;

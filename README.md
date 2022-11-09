@@ -139,6 +139,12 @@ Balsamiq
 
 You can type or calculate to clear the display just hit "C" button it will clear everything from the display
 
+### Error Message
+
+To see error message, type any number which is not valid for calculation 
+for example : type 7885()+8 and then hit error
+ 
+
 
 ### Responsiveness
 
